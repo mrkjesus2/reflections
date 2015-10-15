@@ -1,0 +1,60 @@
+How did viewing the differences of the files help you spot the bug?
+
+It filtered out numerous lines of code and allowed me to focus only on what
+changed. It made the haystack much smaller so to speak.
+
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+If you make a typo that breaks something, you will have a history before it was
+broken to quickly find what you did wrong.  Perhaps you roll out a change and
+find that what you did doesn't have the desired effect and you want to quickly
+roll back.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
+
+Pros of manually saving are logical save points, having all of the changes saved
+being related to one another, and knowing that your save isn't in the middle of
+your work.  The major con of manual saving is that you may well forget to save.
+Pros and cons of automatic saving are the opposite of manual saving.
+
+
+
+Why do you think some version control systems, like git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems are designed for working with code which often involves
+changes in multiple files that affect one another.  Google docs is designed for
+tracking the changes to diaries, letters, etc.. where there isn't a strict
+dependence on other files.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows you the history of the commits along with the commit messages
+about what was changed.  When you take the ids of the commits from the log you
+can use them as arguments for git diff and it will show you what has changed,
+i.e. been added or deleted.
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+By knowing that you have the ability to get back to a working state in a
+relatively quick way, one should not be terrified of breaking things.
+
+
+
+Now that you have your worksace set up, what do you want to try using Git for?
+
+I want to use git to have a separate branch when I am adding features to my
+projects.  I want to take bigger chances on the changes that I make since I know
+I will be able to revert to a working state.
