@@ -27,3 +27,9 @@ the repository and allow you to separate code that you are working on until you
 know it is ready to be merged.  You would use clone if you were collaborating on
 a project with somebody and would use branches within that repository to add new
 features.
+
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A benefit of have the remote copy stored locally is being able work on merges offline.
