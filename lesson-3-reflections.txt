@@ -45,3 +45,10 @@ I would probably collaborate with email or dropbox if not for Git.  Email would
 be much harder to keep track of files and structures.  Dropbox would be okay but
 it would be harder to know what the versions of each file mean and there would
 be a lot more time digging through code to see what was going on.
+
+
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+I would want to make changes in a separate branch when collaborating with people so that the master branch is always the production(so to speack) branch. I would also want a separate branch if I was working with a large, complex code base, so that any errors I make won't have far reaching implications.  The advantage to working directly on the master branch is not having to deal with merge conflicts as much while the advantage to working on a branch is security and flexibility.
