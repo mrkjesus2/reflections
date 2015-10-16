@@ -30,6 +30,18 @@ features.
 
 
 
-What is the benefit of having a copy of the last known state of the remote stored locally?
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
 
-A benefit of have the remote copy stored locally is being able work on merges offline.
+A benefit of have the remote copy stored locally is being able work on merges
+offline.
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and
+what would be harder?
+
+I would probably collaborate with email or dropbox if not for Git.  Email would
+be much harder to keep track of files and structures.  Dropbox would be okay but
+it would be harder to know what the versions of each file mean and there would
+be a lot more time digging through code to see what was going on.
