@@ -9,22 +9,40 @@ will have a place for all of its information.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-The staging area is an intermediary between the working directory and the repository.  It allows you to keep your working directory separated from your commits so that you can apply commits in logical fashion.
+The staging area is an intermediary between the working directory and the
+repository.  It allows you to keep your working directory separated from your
+commits so that you can apply commits in logical fashion.
 
 
 
-How can you use the staging area to make sure you have one commit per logical change?
+How can you use the staging area to make sure you have one commit per logical
+change?
 
-By adding files that relate to the logical change to the staging area while files that aren't related are left in the working directory you can make sure your commits are based on one logical change.
+By adding files that relate to the logical change to the staging area while
+files that aren't related are left in the working directory you can make sure
+your commits are based on one logical change.
 
 
 
-What are some situations when branches would be helpful in keeping your history rganized? How would branches help?
+What are some situations when branches would be helpful in keeping your history
+rganized? How would branches help?
 
-One situation in which branches would be helpful is if you are going to add an experimental feature.  It would help by keeping a major change separate from the existing code.
+One situation in which branches would be helpful is if you are going to add an
+experimental feature.  It would help by keeping a major change separate from the
+existing code.
 
 
 
 How do diagrams help you visualize the branch structure?
 
-Diagrams help you to see what the parent of every commit is going back to when the branch was created.  This helps you to see what commits are reachable from eeach specific branch.
+Diagrams help you to see what the parent of every commit is going back to when
+the branch was created.  This helps you to see what commits are reachable from
+eeach specific branch.
+
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Merging two branches together brings all of the commits to the same branch.  I t
+is represented this way to reflect that.
