@@ -46,3 +46,13 @@ the diagram the way we do?
 
 Merging two branches together brings all of the commits to the same branch.  I t
 is represented this way to reflect that.
+
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+Obvious pro is that when it can merge without conflicts, it will be much faster
+than manually diffing files and merging.  The major con will be when a conflict
+arises, it may take a while to figure out what is going on in the code before
+you can complete the merge.
