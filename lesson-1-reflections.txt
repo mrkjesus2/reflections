@@ -1,6 +1,6 @@
 How did viewing the differences of the files help you spot the bug?
 
-It filtered out numerous lines of code and allowed me to focus only on what
+It filtered out numerous lines of irrelevant code and allowed me to focus only on what
 changed. It made the haystack much smaller so to speak.
 
 
